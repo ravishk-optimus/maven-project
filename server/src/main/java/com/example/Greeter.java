@@ -13,9 +13,8 @@ public class Greeter {
   }
 
  /**
- * @param  parameter
- * @return  the result at the specified URL
- * @see         Image
+ * @param someone
+ * @return greeting
  */
   public final String greet(final String someone) {
     return String.format("Hello, %s!", someone);
